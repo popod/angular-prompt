@@ -43,7 +43,8 @@ function MyCtrl($scope, prompt) {
     input: true,
     label: 'Name',
     value: 'Current name',
-    values: ['other','possible','names']
+    values: ['other','possible','names'],
+    placeholder: 'Placeholder'
   }).then(function(name){
     //the promise is resolved with the user input
   });  
@@ -83,6 +84,11 @@ function MyCtrl($scope, prompt) {
  Type: `Array` of `String`  
  Default: `undefined`  
  A list of values available in a dropdown for the user to select as the input value.
+
+- #### options.placeholder
+ Type: `String`  
+ Default: `''`  
+ The placeholder of the input if `input=true`.
 
  - #### options.buttons
  Type: `Array` of `Object` with properties `label`,`cancel`, `style`, and `primary`  

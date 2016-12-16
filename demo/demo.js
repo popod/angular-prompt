@@ -9,6 +9,7 @@ angular.module('app').controller('DemoCtrl',function($scope,prompt){
         label:'Input label',
         value:'Input initial value',
         values:'',
+        placeholder:'Your input here ...',
         buttons:''
     };
 
@@ -37,6 +38,7 @@ angular.module('app').controller('DemoCtrl',function($scope,prompt){
             options.value = undefined;
             options.values = undefined;
             options.label = undefined;
+            options.placeholder = undefined;
         }
         return options;
     };
