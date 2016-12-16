@@ -85,7 +85,7 @@ function MyCtrl($scope, prompt) {
  Default: `undefined`  
  A list of values available in a dropdown for the user to select as the input value.
 
-- #### options.placeholder
+ - #### options.placeholder
  Type: `String`  
  Default: `''`  
  The placeholder of the input if `input=true`.
